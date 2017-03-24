@@ -10,4 +10,6 @@ import java.util.List;
 public interface IHelloWorldService {
     PersonPO getById(Long id);
     void batchInsert(List<PersonPO> personPOList);
+    void aopProxy();
+    void aop1();
 }
